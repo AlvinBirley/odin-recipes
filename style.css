@@ -1,0 +1,113 @@
+.header {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipe-link {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(112, 60, 0);
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+
+  a:hover {
+    color: rgb(216, 189, 8);
+  }
+
+  img {
+    border-radius: 10px; 
+  }
+
+  .angel-header {
+    text-align: center;
+    font-size: 1.75em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.angel-pic {
+    text-align: center;
+}
+
+.description-ingredients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.description {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.ingredients {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+p1 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+p2 {
+    text-indent: 20px;
+    line-height: 3;
+}
+
+/*makes bullet points behave like inline elements allowing them to be centered*/
+.ingredients ul {
+    display: inline-block;
+    padding-left: 0;
+    list-style-position: inside;
+    line-height: 20px;
+  }
+
+
+.steps {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+/*makes bullet points behave like inline elements allowing them to be centered*/
+.steps ol {
+    display: inline-block;
+    padding-left: 0;
+    list-style-position: inside;
+  }
+  .top-li{
+   
+}
+
+.steps li {
+    margin-bottom: 30px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: center;
+}
+
+.scampi {
+    background-color: peachpuff;
+}
+
+.quiche {
+    background-color: gold;
+}
+
+.roast {
+    background-color: burlywood;
+}
